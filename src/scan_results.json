@@ -1,0 +1,37 @@
+{
+    "devices": [
+        {
+            "ip": "192.168.0.1",
+            "mac": "c4:71:54:40:37:52",
+            "hostname": "_gateway"
+        }
+    ],
+    "ports": {
+        "192.168.0.1": {
+            "ip": "192.168.0.1",
+            "state": "up",
+            "ports": [
+                {
+                    "port": 22,
+                    "state": "open",
+                    "service": "ssh",
+                    "version": "2012.55"
+                },
+                {
+                    "port": 23,
+                    "state": "open",
+                    "service": "telnet",
+                    "version": "1.14.0 or later"
+                },
+                {
+                    "port": 80,
+                    "state": "open",
+                    "service": "http",
+                    "version": ""
+                }
+            ]
+        }
+    },
+    "scan_time": "2025-10-01T17:32:03.228896",
+    "network": "192.168.0.0/24"
+}
